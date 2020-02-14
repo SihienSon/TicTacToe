@@ -13,3 +13,12 @@ void TicTacToe::CreateBoard()
         }
     }
 }
+
+void TicTacToe::DisplayBoard(){
+  for (int i = 0; i < 3; ++i) {
+       for (int k = 0; k < 3; k++){
+          cout << Array[i][j] << ' ';
+        }
+       cout <<   endl;
+    }
+}
