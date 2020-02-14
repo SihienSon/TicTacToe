@@ -24,7 +24,9 @@ int main() {
   Game.PlaceMarker(1, 1, 'X');
   Game.DisplayBoard();
 
-
+  Game.DisplayBoard();
+  Game.PlaceMarker(1, 2, 'O');
+  Game.DisplayBoard();
 
 
 }
