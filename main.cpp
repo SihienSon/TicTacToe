@@ -17,10 +17,11 @@ int main() {
   cout << "Enter your marker" << endl;
   char marker;
   cin >> marker;
-  Game.GetPlayerChoice(row, col);
 
 
-  Game.PlaceMarker(row, col, marker);
+  Game.PlaceMarker(1, 1, 'X');
+  Game.DisplayBoard();
+  Game.PlaceMarker(1, 1, 'X');
   Game.DisplayBoard();
 
 
