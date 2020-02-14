@@ -1,0 +1,19 @@
+? ./main
+_ _ _
+_ _ _
+_ _ _
+Enter a row
+1
+Enter a column
+1
+Enter your marker
+X
+X _ _
+_ _ _
+_ _ _
+X O _
+_ _ _
+_ _ _
+X O _
+_ _ _
+_ x _
